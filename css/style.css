@@ -157,7 +157,7 @@ justify-content: center;
   position:absolute;
   padding-top:12px;
   font-size:1.2em;
-  top:60%;
+  top:65%;
   left:50%;
   transform: translate(-50%,-50%);
 }
@@ -245,13 +245,29 @@ justify-content: center;
   color:#eee;
 }
 .foow .sm{
-  font-size:3em;
+  font-size:2.5em;
+  width:50%;
+  margin:0 auto;
+  display:grid;
+  grid-auto-flow: column;
 }
 .foow .sm .gh{
   color:#4078c0;
 }
 .foow .sm .ln{
   color:#0077b5;
+}
+.foow .sm .fb{
+  color:#3b5998;
+}
+.foow .sm .tw{
+  color:#1da1f2;
+}
+.foow .sm .yt{
+  color:#ff0000;
+}
+.foow .sm .ma{
+  color:#4078c0;
 }
 .foow .ot a{
   color:#e0e0e0;
