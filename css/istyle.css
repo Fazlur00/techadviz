@@ -1,8 +1,51 @@
 @import"style.css";
 .s4{
-  height:600px;
+  height:100%;
+  display:block;
+  box-sizing: border-box;
+}
+.ihead > h1{
+font-size:2em;
+}
+.ihead > p{
+  font-size:1.5em;
+}
+.ihead{
+  width:80%;
+  margin:50px auto  0px;
+  text-align: center;
 }
 .indust{
-  background: #a3a;
-  height:60px;
+  height:80%;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  padding-top:2%;
+}
+.sin{
+  flex-basis: 230px;
+  border:2px solid #11111f;
+  margin-bottom:5%;
+  text-align:center;
+  padding-top:5%;
+  transition:0.4s;
+  border-radius:5px;
+  border:2px solid rgba(1,1,1,0.5);
+}
+.sin:hover{
+  transform:scale(1.2);
+  font-weight:bolder;
+  font-size:1.2em;
+}
+@media (max-width:991px){
+  .s4{
+    height:1500px;
+  }
+  .ihead{
+    margin-bottom:20px;
+  }
+  .sin{
+    width:80%;
+    height:100px;
+  }
 }
