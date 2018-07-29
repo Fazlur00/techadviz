@@ -1,0 +1,54 @@
+@import"style.css";
+.s4{
+  display:block;
+  height:650px;
+}
+.pih{
+  text-align: center;
+ 
+  width:70%;
+  margin:50px auto; 
+}
+.pih h1{
+  font-size:3em;
+  margin-bottom:30px;
+}
+.pih p{
+  font-size:1.5em;
+}
+.pip{
+  display:flex;
+  justify-content: space-around;
+  width:90%;
+  margin:0 auto;
+}
+.pip div{
+  height:300px;
+  width:280px;
+  background:rgb(1,1,1,0.8);
+  border-radius:15px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+  color:#fff;
+}
+.pip div h1{
+  font-size:3em;
+}
+.pip div p{
+  font-size:1.1em;
+  text-align: center;
+}
+@media(max-width: 991px){
+  .s4{
+    display:block;
+    height:1900px;
+  }
+  .pip{
+    flex-wrap: wrap;
+  }
+  .pip div{
+    margin-bottom:50px;
+  }
+}

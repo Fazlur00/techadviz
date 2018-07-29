@@ -1,0 +1,83 @@
+@import"style.css";
+.s4{
+  display:block;
+  height:1000px;
+}
+.abi{
+  text-align:center;
+  margin:60px auto;
+  width:80%;
+}
+.abi h1{
+  font-size:3em;
+  margin-bottom:30px;
+}
+.abi p{
+  font-size:1.5em;
+  margin-bottom:20px;
+}
+.abi h2,h2{
+  text-align: center;
+  font-size:2.5em;
+  margin-bottom:30px;
+}
+.abf{
+  display:flex;
+  width:70%;
+  margin:auto;
+  justify-content: space-around;
+  height:100px;
+  align-items: center;
+}
+.abf div{
+  font-size:2em;
+  font-weight:bold;
+  color:#3e2;
+}
+.abc{
+  display: flex;
+  width:80%;
+  margin:0 auto;
+  justify-content: space-around;
+}
+.abc div{
+  height:250px;
+  width:300px;
+  background:rgba(1,1,1,0.8);
+  border-radius:5px;
+  box-shadow: 5px 5px #fff 2px 2px;
+  color:#fff;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom:20px;
+}
+.abc div p:first-child{
+  text-align:center;
+  font-size:1.5em;
+}
+.abc div span{
+  font-size:6em;
+}
+.abc div p:last-child{
+  text-align:center;
+  font-size:2em;
+}
+
+@media(max-width: 991px){
+  .s4{
+    display:block;
+    height:2150px;
+  }
+  .abf{
+    flex-wrap:wrap;
+    margin-bottom:100px;
+  }
+  .abf div{
+    margin-bottom:40px;
+  }
+  .abc{
+    flex-wrap:wrap;
+  }
+}
