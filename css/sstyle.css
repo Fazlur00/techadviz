@@ -43,7 +43,7 @@ font-size:2em;
 }
 @media (max-width:991px){
   .s4{
-    height:1500px;
+    height:330vh;
   }
   .ihead{
     margin-bottom:20px;
