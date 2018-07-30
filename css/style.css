@@ -344,7 +344,12 @@ transform: translateX(5%);
          -o-transform:skew(8deg) rotate(3deg);
             transform:skew(8deg) rotate(3deg);
 }
-
+.sma{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: stretch;
+}
 
 @media (max-width: 991px){
   header{
